@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			{
+				margin: 0;
+				padding: 0;
+			}
+			.img{
+				margin-left: 320px;
+			}
+			.tabs {
+    position: relative;
+	
+	width: 980px;
+	margin: auto;
+}
+
+.clear-shadow {
+	clear: both;
+}   
+            
+		</style>
+		<script>
+			function face(){
+				document.getElementById("content-1").style.display="block";
+				document.getElementById("content-2").style.display="none";
+				document.getElementById("content-3").style.display="none";
+				document.getElementById("content-4").style.display="none";
+				document.getElementById("content-5").style.display="none";
+				document.getElementById("content-6").style.display="none";
+				document.getElementById("content-7").style.display="none";
+				document.getElementById("content-8").style.display="none";
+				document.getElementById("content-9").style.display="none";
+			}
+			function name(){
+				document.getElementById("content-1").style.display="none";
+				document.getElementById("content-2").style.display="block";
+				document.getElementById("content-3").style.display="none";
+				document.getElementById("content-4").style.display="none";
+				document.getElementById("content-5").style.display="none";
+				document.getElementById("content-6").style.display="none";
+				document.getElementById("content-7").style.display="none";
+				document.getElementById("content-8").style.display="none";
+				document.getElementById("content-9").style.display="none";
+			}
+			function intro(){
+				document.getElementById("content-1").style.display="none";
+				document.getElementById("content-2").style.display="none";
+				document.getElementById("content-3").style.display="block";
+				document.getElementById("content-4").style.display="none";
+				document.getElementById("content-5").style.display="none";
+				document.getElementById("content-6").style.display="none";
+				document.getElementById("content-7").style.display="none";
+				document.getElementById("content-8").style.display="none";
+				document.getElementById("content-9").style.display="none";
+			}
+			function group(){
+				document.getElementById("content-1").style.display="none";
+				document.getElementById("content-2").style.display="none";
+				document.getElementById("content-3").style.display="none";
+				document.getElementById("content-4").style.display="block";
+				document.getElementById("content-5").style.display="none";
+				document.getElementById("content-6").style.display="none";
+				document.getElementById("content-7").style.display="none";
+				document.getElementById("content-8").style.display="none";
+				document.getElementById("content-9").style.display="none";
+			}
+			function light(){
+				document.getElementById("content-1").style.display="none";
+				document.getElementById("content-2").style.display="none";
+				document.getElementById("content-3").style.display="none";
+				document.getElementById("content-4").style.display="none";
+				document.getElementById("content-5").style.display="block";
+				document.getElementById("content-6").style.display="none";
+				document.getElementById("content-7").style.display="none";
+				document.getElementById("content-8").style.display="none";
+				document.getElementById("content-9").style.display="none";
+			}
+			function plan(){
+				document.getElementById("content-1").style.display="none";
+				document.getElementById("content-2").style.display="none";
+				document.getElementById("content-3").style.display="none";
+				document.getElementById("content-4").style.display="none";
+				document.getElementById("content-5").style.display="none";
+				document.getElementById("content-6").style.display="block";
+				document.getElementById("content-7").style.display="none";
+				document.getElementById("content-8").style.display="none";
+				document.getElementById("content-9").style.display="none";
+			}
+			function pattern(){
+				document.getElementById("content-1").style.display="none";
+				document.getElementById("content-2").style.display="none";
+				document.getElementById("content-3").style.display="none";
+				document.getElementById("content-4").style.display="none";
+				document.getElementById("content-5").style.display="none";
+				document.getElementById("content-6").style.display="none";
+				document.getElementById("content-7").style.display="block";
+				document.getElementById("content-8").style.display="none";
+				document.getElementById("content-9").style.display="none";
+			}function money(){
+				document.getElementById("content-1").style.display="none";
+				document.getElementById("content-2").style.display="none";
+				document.getElementById("content-3").style.display="none";
+				document.getElementById("content-4").style.display="none";
+				document.getElementById("content-5").style.display="none";
+				document.getElementById("content-6").style.display="none";
+				document.getElementById("content-7").style.display="none";
+				document.getElementById("content-8").style.display="block";
+				document.getElementById("content-9").style.display="none";
+			}
+			function power(){
+				document.getElementById("content-1").style.display="none";
+				document.getElementById("content-2").style.display="none";
+				document.getElementById("content-3").style.display="none";
+				document.getElementById("content-4").style.display="none";
+				document.getElementById("content-5").style.display="none";
+				document.getElementById("content-6").style.display="none";
+				document.getElementById("content-7").style.display="none";
+				document.getElementById("content-8").style.display="none";
+				document.getElementById("content-9").style.display="block";
+			}
+			 $eleBtn1.click(function(){
+            var $eleForm = $("<form method='get'></form>");
+
+            $eleForm.attr("action","#");
+
+            $(document.body).append($eleForm);
+
+            
+            $eleForm.submit();
+        });
+		</script>
+	</head>
+	<body>
+		<img src="img/QQ图片20171029180231_副本.jpg"width="600px"height="100px" class="img"/>
+		<h1 align="center">BUSINESS PLAN</h1>
+		<section class="tabs">
+			    <button onclick="face()">首页及项目名称</button>
+	            
+		        <button onclick="intro()">项目简介</button>
+		        <button onclick="group()">目标群体</button>
+		        <button onclick="light()">项目亮点</button>
+		        <button onclick="plan()">项目运营计划</button>
+		        <button onclick="pattern()">项目盈利模式</button>
+		        <button onclick="money()">项目投资计划</button>
+		        <button onclick="power()">核心竞争力及竞争分析</button>
+		        <button type="button" id="btn1">下载</button>
+<h6>我不知道为什么下载不了。</h6>
+		        <div class="content">
+			        <div id="content-1">
+			        	<h1 style="color: firebrick;"align="center">项目名称:画你想画</h1>
+			        	<h3>日期：2017年11月27日</h3>
+			        	<h3>地点：中国湖南省湘潭市湘潭大学金翰林</h3>
+						<h1 align="center"style="font-size: xx-large">商</h1>
+						<h1 align="center"style="font-size: xx-large">业</h1>
+						<h1 align="center"style="font-size: xx-large">计</h1>
+						<h1 align="center"style="font-size: xx-large">划</h1>
+						<h1 align="center"style="font-size: xx-large">书</h1>
+						<h3>项目负责人：朱静晶</h3>
+						<h3>所属院校：湘潭大学信息工程学院</h3>
+						<h3>联系电话：18873230018</h3>
+						<h3>电子邮箱：18873230018@163.com</h3>
+                    </div>
+			        <div id="content-2" style="display: none;">
+						<h1 align="center">1、项目名称</h1>
+						<p style="color: firebrick;font-size: xx-large; font-weight: bold;" align="center" >画你想画</p>
+                    </div>
+			        <div id="content-3"style="display: none;">
+						<h1 style="font-size: xx-large;">2、项目简介</h1>
+						<p style="font-weight: bold; font-size: x-large;"> 相机的发明方便了人们的日常生活，可以较快的记录下生活的点滴美好，但相机并不一定完全可以记录下所以的美好，所有的刻骨铭心；相机也没有办法构造未来。</p>
+						<p style="font-weight: bold; font-size: x-large;"> 相机记录的只是过去，但画可以记录过去，还能够描绘未来。</p>
+						<p style="font-weight: bold; font-size: x-large;"> 相机“咔擦”一下便可以定格时间，而画家倾注了无限的时间与精力才能画出一幅令自己满意的画。</p>
+						<p style="font-weight: bold; font-size: x-large;"> 画往往充满了无限的想象，所以用画来描绘未来的世界会更有意义。画不是静止的，而是一种时间的延续，一直延续至不远的将来。</p>
+						<p style="font-weight: bold; font-size: x-large;"> 你是不是想说你不会画画。</p>
+						<p style="font-weight: bold; font-size: x-large;"> 没关系，我们“画你想画”来帮你，“画你想要”就是用来填补你心中的空白画面，满足你对未来的设想，让你再次感受那些你埋藏在记忆深处的美好，那些无法忘记的但又无法实际再感受的美好。</p>
+						<p style="font-weight: bold; font-size: x-large;"> 用户只需讲出或用语言来描绘出你所想要得到的画面，写明你的酬金，再找出“画你想画”你喜欢的画家，把信息发给他（或她），画家接单后就会回复你然后就会“画你想要”，给你一个你想要的作品。</p>
+						<p style="font-weight: bold; font-size: x-large;"> “画你想要”还可以给那些年轻的、不知名的画家，那些有潜力的、有才华的画家一个施展自己的平台，让更多的人认识自己，欣赏自己的作品。</p>
+                    </div>
+				    <div id="content-4"style="display: none;">
+						<h1 align="center">3、目标群体</h1>
+						<h2 style="color: firebrick;" align="center">所有人（EVERYBODY）</h2>
+						<h3 style="color: firebrick;" align="center">（所有画家和所有需要画的人）</h3>
+                    </div>
+                    <div id="content-5"style="display: none;">
+						<h1 align="center">4、项目亮点</h1>
+						<h2>用来记录那些遗留的美好和对未来生活的设想期待。从而使人们更加珍惜现在，享受当前。对人们的生活具有积极的意义。还可以给各位画家一个平台在展示自己的同时付出也得到相应的回报。</h2>
+                    </div>
+                    <div id="content-6"style="display: none;">
+						<h1 align="center">5、项目盈利模式</h1>
+						<h2 align="center">I、广告费</h2>
+						<h2 align="center">II、推送画家费</h2>
+						<h2 align="center">III、会员注册费</h2>
+						<h2 align="center">IV、以交易的金额为基准按比例收取佣金</h2>
+                    </div>
+                    <div id="content-7"style="display: none;">
+						<h1 align="center">6、项目运营计划</h1>
+						<h2>本项目需要有一名管理人员，一名前端设计工程师，一名财务人员，一名法务人员，一名紧急公关人员，一名后勤保障人员。共计6名员工。年薪共计需要60万。</h2>
+						<h2>场地（办公楼）费用50万/年。</h2>
+						<h2>日常花销（包括各种类型在内)：10万/年</h2>
+						<h2>共计：120万/年</h2>
+                    </div>
+                    <div id="content-8"style="display: none;">
+						<h1 align="center">7、项目投资计划</h1>
+						<h2>初步计划：三年需要项目投资100万/年。</h2>
+						<h2>三年后扩大运营规模，需要200万/年</h2>
+                    </div>
+                    <div id="content-9"style="display: none;">
+						<h1 align="center" style="font-size: xx-large;">8、项目核心竞争力及竞争分析</h1>
+						<h2 align="center">一、项目核心竞争力</h2>
+						<h2>I、“画你想画”用来记录那些遗留的美好和对未来生活的设想期待。从而使人们更加珍惜现在，享受当前。对人们的生活具有积极的意义。还可以给各位画家一个平台在展示自己的同时付出也得到相应的回报。</h2>
+						<h2>II、“画你想画”充当生活中美的传递者，这非常的新颖，但大众心里是可以接受的，喜欢上的。</h2>
+						<h1 align="center">二、竞争分析</h1>
+						<h2>竞争者：“画你APP”、“涂鸦王国”及其他一些关于绘画的网站和APP。</h2>
+						<h2>它们的优势：它们经营时间长在经验技术方面占优势；依赖其品牌优势使其产品早就深入人心；资金雄厚，广告宣传方面会做得比较到位。</h2>
+						<h2>我们的优势：同时我们大学生对创业的激情非常高；生活在大学这个特殊的环境使我们发现了一些别人尚未发现的市场机会；大学生人际交往范围广朋友多，在创业过程中均有各界朋友的帮忙，门路多。</h2>
+						
+                    </div>
+                    
+		        </div>
+			</section>
+            
+	</body>
+</html>
